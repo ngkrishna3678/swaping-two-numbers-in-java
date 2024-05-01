@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+int x = 10;
+int y = 20;
+// Use the following formula to swap the values of x and y
+int temp = x;
+x = y;
+y = temp;
+// Print the values of x and y to confirm that they have been swapped
+System.out.println("x = " + x);
+System.out.println("y = " + y);
